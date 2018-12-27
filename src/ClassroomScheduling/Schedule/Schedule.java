@@ -3,6 +3,7 @@ package ClassroomScheduling.Schedule;
 import ClassroomScheduling.Availability.Availability;
 import ClassroomScheduling.TimeSpan.TimeSpan;
 
+import java.time.DayOfWeek;
 import java.util.ArrayList;
 
 public abstract class Schedule {
@@ -25,7 +26,7 @@ public abstract class Schedule {
         return program;
     }
 
-    public ArrayList<TimeSpan> getDay(Days day) {
+    public ArrayList<TimeSpan> getDay(DayOfWeek day) {
         return program.get(day.ordinal());
     }
 
@@ -33,15 +34,13 @@ public abstract class Schedule {
         return program.get(day);
     }
 
-    public abstract Availability statusAt(Days day, TimeSpan timeSpan);
+    public abstract Availability statusAt(TimeSpan timeSpan);
 
-    public ArrayList<TimeSpan> CoincidingTimeSpans(Days day, TimeSpan timeSpan) {
+    public ArrayList<TimeSpan> CoincidingTimeSpans(TimeSpan timeSpan) {
         ArrayList<TimeSpan> coincidingTimeSpans = new ArrayList<>();
-        for (TimeSpan currentTimeSpan : getDay(day))
+        for (TimeSpan currentTimeSpan : getDay(timeSpan.getDay()))
             if (currentTimeSpan.Coincides(timeSpan))
                 coincidingTimeSpans.add(currentTimeSpan);
         return coincidingTimeSpans;
     }
-
-    public enum Days {SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY}
 }

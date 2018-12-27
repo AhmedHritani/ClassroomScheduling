@@ -1,7 +1,7 @@
 package ClassroomScheduling.Availability;
 
-public class StudentGroupAvailability {
-    private boolean available;
+public class StudentGroupAvailability implements Availability{
+    final private boolean available;
 
     public StudentGroupAvailability(boolean available) {
         this.available = available;

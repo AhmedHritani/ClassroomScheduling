@@ -1,8 +1,9 @@
 package ClassroomScheduling.Schedule;
 
+import ClassroomScheduling.Availability.Availability;
+import ClassroomScheduling.Availability.StudentGroupAvailability;
 import ClassroomScheduling.TimeSpan.StudentTimeSpan;
 import ClassroomScheduling.TimeSpan.TimeSpan;
-import ClassroomScheduling.Availability.*;
 
 import java.util.ArrayList;
 
@@ -22,19 +23,17 @@ public class StudentSchedule extends Schedule {
     }
 
     @Override
-    public Availability statusAt(Days day, TimeSpan timeSpan) {
-        boolean available = true;
-        ArrayList<TimeSpan> coincidingTimeSpans = CoincidingTimeSpans(day, timeSpan);
+    public Availability statusAt(TimeSpan timeSpan) {
+        boolean availability = true;
+        ArrayList<TimeSpan> coincidingTimeSpans = CoincidingTimeSpans(timeSpan);
+
         for (TimeSpan coincidingTimeSpan : coincidingTimeSpans) {
-            if (!((StudentTimeSpan) coincidingTimeSpan).isAvailable()) {
-                available = false;
+            if (((StudentTimeSpan) coincidingTimeSpan).getStudentsGroup().equals( ((StudentTimeSpan)timeSpan).getStudentsGroup())) {
+                availability = false;
                 break;
             }
         }
-        if (available)
-            return (Availability) new StudentGroupAvailability(true);
-        else
-            return (Availability) new StudentGroupAvailability(false);
+        return (Availability) new StudentGroupAvailability(availability);
     }
 
     //Add a function to get status at for a group of student in a day in a timespan

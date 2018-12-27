@@ -1,7 +1,7 @@
 package ClassroomScheduling.Availability;
 
 public class TeacherAvailability implements Availability {
-    private boolean available, comfortable;
+    final private boolean available, comfortable;
 
     public TeacherAvailability(Status status) {
         switch (status) {
@@ -19,6 +19,9 @@ public class TeacherAvailability implements Availability {
                 available = true;
                 comfortable = false;
                 break;
+            }
+            default:{
+                available=comfortable=true;
             }
         }
     }

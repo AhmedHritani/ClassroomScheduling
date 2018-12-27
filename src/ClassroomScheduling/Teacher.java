@@ -19,8 +19,8 @@ public class Teacher {
         schedule = null;
     }
 
-    public TeacherAvailability statusAt(Schedule.Days day, TimeSpan timeSpan){
-        return (TeacherAvailability) schedule.statusAt(day, timeSpan);
+    public TeacherAvailability statusAt(TimeSpan timeSpan){
+        return (TeacherAvailability) schedule.statusAt(timeSpan);
     }
 
     public void setSchedule(TeacherSchedule schedule) {

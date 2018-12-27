@@ -13,9 +13,9 @@ public class TeacherSchedule extends Schedule {
     }
 
     @Override
-    public Availability statusAt(Days day, TimeSpan timeSpan) {
+    public Availability statusAt(TimeSpan timeSpan) {
 
-        ArrayList<TimeSpan> coincidingTimeSpans=CoincidingTimeSpans(day,timeSpan);
+        ArrayList<TimeSpan> coincidingTimeSpans=CoincidingTimeSpans(timeSpan);
         boolean available=true,comfortable=true;
         for (TimeSpan coincidingTimeSpan : coincidingTimeSpans) {
             if (!((TeacherTimeSpan) coincidingTimeSpan).isAvailable()) {

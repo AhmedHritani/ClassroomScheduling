@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class HavingMoreThanOneLectureAtTheSameTimeConstraint implements StrongConstraint {
 
     @Override
-    public boolean check(Schedule schedule) {
+    public boolean Check(Schedule schedule) {
 
         for (ArrayList<TimeSpan> timeSpans : schedule.getProgram()) {
             for (TimeSpan timeSpan : timeSpans) {

@@ -5,16 +5,16 @@ import ClassroomScheduling.TimeSpan.TimeSpan;
 
 import java.util.ArrayList;
 
-public class HoursForLeacturesContraint implements StrongConstraint {
+public class MaximumLectureDuration implements StrongConstraint {
 
-    int numbersOfHours;
+    private int numbersOfHours;
 
-    public HoursForLeacturesContraint(int numbersOfHours) {
+    public MaximumLectureDuration(int numbersOfHours) {
         this.numbersOfHours = numbersOfHours;
     }
 
     @Override
-    public boolean check(Schedule schedule) {
+    public boolean Check(Schedule schedule) {
 
         for (ArrayList<TimeSpan> timeSpans : schedule.getProgram()) {
             for (TimeSpan timeSpan : timeSpans) {

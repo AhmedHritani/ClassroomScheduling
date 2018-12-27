@@ -3,7 +3,7 @@ package ClassroomScheduling.Location;
 public class Lab extends Location {
 
 
-    public Lab(String name) {
-        super(name);
+    public Lab(int id, String name) {
+        super(id,name);
     }
 }

@@ -4,5 +4,5 @@ import ClassroomScheduling.Constraints.Constraint;
 import ClassroomScheduling.Schedule.Schedule;
 
 public interface StrongConstraint extends Constraint {
-
+    public boolean Check(Schedule schedule);
 }
