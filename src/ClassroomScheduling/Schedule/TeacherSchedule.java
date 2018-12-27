@@ -1,22 +1,30 @@
 package ClassroomScheduling.Schedule;
 
+import ClassroomScheduling.Availability.Availability;
+import ClassroomScheduling.Availability.TeacherAvailability;
 import ClassroomScheduling.TimeSpan.TeacherTimeSpan;
 import ClassroomScheduling.TimeSpan.TimeSpan;
-import ClassroomScheduling.Availability.*;
 
 import java.util.ArrayList;
 
 public class TeacherSchedule extends Schedule {
 
-    public TeacherSchedule(int daysCount) {
-        super(daysCount);
+    public TeacherSchedule(TeacherSchedule teacherSchedule) {
+        super(teacherSchedule);
+    }
+
+    @Override
+    public Schedule MakeMove(TimeSpan timeSpan) {
+        Schedule updatedSchedule = new TeacherSchedule(this);
+        updatedSchedule.AddTimeSpan(timeSpan);
+        return updatedSchedule;
     }
 
     @Override
     public Availability statusAt(TimeSpan timeSpan) {
 
-        ArrayList<TimeSpan> coincidingTimeSpans=CoincidingTimeSpans(timeSpan);
-        boolean available=true,comfortable=true;
+        ArrayList<TimeSpan> coincidingTimeSpans = CoincidingTimeSpans(timeSpan);
+        boolean available = true, comfortable = true;
         for (TimeSpan coincidingTimeSpan : coincidingTimeSpans) {
             if (!((TeacherTimeSpan) coincidingTimeSpan).isAvailable()) {
                 available = false;

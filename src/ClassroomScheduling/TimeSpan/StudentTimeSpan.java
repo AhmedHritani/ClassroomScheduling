@@ -27,6 +27,7 @@ public class StudentTimeSpan extends TimeSpan {
         this.course = timeSpan.course;
         this.teacher = timeSpan.teacher;
         this.studentsGroup = timeSpan.studentsGroup;
+        this.location=timeSpan.location;
     }
 
     public StudentsGroup getStudentsGroup() {

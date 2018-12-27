@@ -3,38 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="071bf8c7-c8bf-4488-8471-6683c78d9f87" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Availability/Availability.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Availability/StudentGroupAvailability.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Availability/TeacherAvailability$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Availability/TeacherAvailability$Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Availability/TeacherAvailability.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Constraints/Constraint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Constraints/StrongConstraints/HavingMoreThanOneLectureAtTheSameTimeConstraint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Constraints/StrongConstraints/StrongConstraint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Constraints/WeakConstraint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Location/Auditorium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Location/Lab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Location/Location.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Sandbox/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Schedule/Schedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Schedule/StudentSchedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Schedule/TeacherSchedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Scheduler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/StudentsGroup/Class.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/StudentsGroup/Group.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/StudentsGroup/Major.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/StudentsGroup/Section.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/StudentsGroup/StudentsGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/TimeSpan/StudentTimeSpan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/TimeSpan/TeacherTimeSpan$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/TimeSpan/TeacherTimeSpan$Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/TimeSpan/TeacherTimeSpan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/TimeSpan/TimeSpan$InvalidTimeSpanException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClassroomScheduling/ClassroomScheduling/TimeSpan/TimeSpan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassroomScheduling/Schedule/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassroomScheduling/Schedule/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassroomScheduling/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassroomScheduling/Algorithms/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/StudentTimeSpan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/StudentTimeSpan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TeacherTimeSpan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TeacherTimeSpan.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,23 +18,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/TeachersMaximumNumberOfLecturesInWeekConstraint.java">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Schedule/StudentSchedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/LocationCoherence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Schedule/Schedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Schedule/TeacherSchedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <folding>
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TeacherTimeSpan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TimeSpan.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Location/Location.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Algorithms/Scheduler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="306">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="19" selection-end-column="58" />
               <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -99,12 +155,7 @@
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/StudentSchedule.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Location/Lab.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Location/Auditorium.java" />
-        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Main.java" />
-        <option value="$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TeacherTimeSpan.java" />
-        <option value="$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/StudentTimeSpan.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Availability/Availability.java" />
-        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Schedule/Schedule.java" />
-        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Schedule/TeacherSchedule.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Availability/TeacherAvailability.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Availability/StudentGroupAvailability.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Location/Location.java" />
@@ -114,12 +165,10 @@
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Course.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/StrongConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/NumberOfLecturesConstraint.java" />
-        <option value="$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TimeSpan.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/HoursForLeacturesContraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/HavingMoreThanOneLectureAtTheSameTimeConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/StudentsGroup/StudentsGroup.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/TeacherIsAvaliableConstraint.java" />
-        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Schedule/StudentSchedule.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/WeakConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/SpacesBetweenLeacturesConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/TeacherIsComfortableConstraint.java" />
@@ -129,6 +178,14 @@
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/TeachersMaximumNumberOfLecturesInDayConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/TeachersMaximumNumberOfLecturesInWeekConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java" />
+        <option value="$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/StudentTimeSpan.java" />
+        <option value="$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TeacherTimeSpan.java" />
+        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Main.java" />
+        <option value="$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TimeSpan.java" />
+        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Schedule/TeacherSchedule.java" />
+        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Schedule/Schedule.java" />
+        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Schedule/StudentSchedule.java" />
+        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Algorithms/Scheduler.java" />
       </list>
     </option>
   </component>
@@ -144,6 +201,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -172,25 +230,53 @@
               <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
-              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassroomScheduling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
+              <item name="Constraints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassroomScheduling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
+              <item name="Location" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassroomScheduling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
+              <item name="Schedule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassroomScheduling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
+              <item name="TimeSpan" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545901322016" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545913968102" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -247,7 +333,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3267776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,8 +350,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32924107" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295711" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32924107" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,10 +360,16 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Code Iris" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/AbstractList.java" />
@@ -286,13 +377,10 @@
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/PlayingGround.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/B.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/A.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Scheduler.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Availability/TeacherAvailability.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Availability/Availability.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Location/Lab.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Location/Auditorium.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Location/Location.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/StudentsGroup/Group.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/StudentsGroup/Major.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/StudentsGroup/Class.java" />
@@ -302,10 +390,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/AbstractList.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Availability/StudentGroupAvailability.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TeacherTimeSpan.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/StudentTimeSpan.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Course.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TimeSpan.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/HoursForLeacturesContraint.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/HavingMoreThanOneLectureAtTheSameTimeConstraint.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/TeacherIsAvaliableConstraint.java" />
@@ -314,10 +398,13 @@
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/StrongConstraint.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/Constraint.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraint.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Schedule/Schedule.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Schedule/TeacherSchedule.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Schedule/StudentSchedule.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/WeakConstraint.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/WeakConstraint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/SpacesBetweenLeacturesForStudentsConstraint.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/SpacesBetweenLeacturesForTeachersConstraint.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/TeacherIsComfortableConstraint.java" />
@@ -325,7 +412,21 @@
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/MaximumLecturesCount.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/MaximumLectureDuration.java" />
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/TeachersMaximumNumberOfLecturesInDayConstraint.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Teacher.java" />
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/TeachersMaximumNumberOfLecturesInWeekConstraint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -340,6 +441,99 @@
           <folding>
             <element signature="e#201#202#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/StudentTimeSpan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TeacherTimeSpan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Location/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Schedule/TeacherSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Schedule/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/LocationCoherence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Schedule/StudentSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/TimeSpan/TimeSpan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Algorithms/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

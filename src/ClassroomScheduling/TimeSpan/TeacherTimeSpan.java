@@ -17,6 +17,12 @@ public class TeacherTimeSpan extends TimeSpan {
         }
     }
 
+    public TeacherTimeSpan(TeacherTimeSpan teacherTimeSpan) throws InvalidTimeSpanException {
+        super(teacherTimeSpan);
+        this.available=teacherTimeSpan.available;
+        this.comfortable=teacherTimeSpan.comfortable;
+    }
+
     public boolean isAvailable() {
         return available;
     }

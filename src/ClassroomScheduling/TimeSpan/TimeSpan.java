@@ -53,7 +53,7 @@ public class TimeSpan implements Comparable {
     }
 
     public boolean Coincides(TimeSpan timeSpan) {
-        if ((startingTime <= timeSpan.startingTime && timeSpan.startingTime <= endingTime) || (timeSpan.startingTime <= startingTime && startingTime <= timeSpan.endingTime))
+        if (this.getDay() == timeSpan.getDay() &&((startingTime <= timeSpan.startingTime && timeSpan.startingTime <= endingTime) || (timeSpan.startingTime <= startingTime && startingTime <= timeSpan.endingTime)))
             return true;
         else
             return false;
