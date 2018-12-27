@@ -7,7 +7,8 @@ public abstract class WeakConstraint implements Constraint {
 
 
      //Represent The Cost of violating this Constraint
-     private int cost;
+
+    protected int cost;
 
     public int getCost() {
         return cost;
