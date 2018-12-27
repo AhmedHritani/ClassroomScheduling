@@ -1,6 +1,7 @@
 package ClassroomScheduling.Schedule;
 
 import ClassroomScheduling.Availability.Availability;
+import ClassroomScheduling.TimeSpan.StudentTimeSpan;
 import ClassroomScheduling.TimeSpan.TimeSpan;
 
 import java.time.DayOfWeek;
@@ -60,5 +61,25 @@ public abstract class Schedule {
             if (currentTimeSpan.Coincides(timeSpan))
                 coincidingTimeSpans.add(currentTimeSpan);
         return coincidingTimeSpans;
+    }
+
+    @Override
+    public String toString() {
+        int dayIndex=6;
+        StringBuilder result = new StringBuilder();
+        for (ArrayList<TimeSpan> day : program) {
+            result.append(DayOfWeek.of(dayIndex+1).toString()).append(": ");
+            dayIndex=(dayIndex+1)%7;
+            for (TimeSpan timeSpan : day) {
+                result
+                        .append(timeSpan.getStartingTime()).append(" ")
+                        .append(((StudentTimeSpan) timeSpan).getCourse().getName()).append(" ")
+                        .append(timeSpan.getEndingTime()).append(" ")
+                        .append(((StudentTimeSpan)timeSpan).getLocation().getName())
+                        .append(" - ");
+            }
+            result.append("\n");
+        }
+        return result.toString();
     }
 }

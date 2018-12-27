@@ -8,11 +8,15 @@ public abstract class StudentsGroup {
     private StudentsGroup parent;
     private ArrayList<StudentsGroup> children;
 
-    StudentsGroup(int id, int studentsCount, StudentsGroup parent, ArrayList<StudentsGroup> children) {
+    StudentsGroup(int id, int studentsCount, StudentsGroup parent) {
         this.id = id;
         this.studentsCount = studentsCount;
         this.parent = parent;
-        this.children = children;
+        this.children = new ArrayList<>();
+    }
+
+    public void AddChild(StudentsGroup child){
+        children.add(child);
     }
 
     public int getId() {

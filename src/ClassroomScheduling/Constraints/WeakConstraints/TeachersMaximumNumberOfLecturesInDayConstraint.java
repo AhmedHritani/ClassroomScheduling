@@ -32,7 +32,7 @@ public class TeachersMaximumNumberOfLecturesInDayConstraint extends WeakConstrai
 
                 counter.put(tempi.getTeacher(), value);
 
-                if(value > tempi.getTeacher().getMaximumNumberOfLeacturesInDay())
+                if(value > tempi.getTeacher().getMaximumNumberOfLecturesInDay())
                     res++;
 
             }

@@ -1,14 +1,12 @@
 package ClassroomScheduling.TimeSpan;
 
-import java.time.DayOfWeek;
-
 public class TimeSpan implements Comparable {
 
+    protected int day;
     protected float startingTime, endingTime;
-    private DayOfWeek day;
 
-    public TimeSpan(float startingTime, float endingTime, DayOfWeek day) throws InvalidTimeSpanException {
-        if (startingTime < endingTime)
+    public TimeSpan(float startingTime, float endingTime, int day) throws InvalidTimeSpanException {
+        if (startingTime > endingTime)
             throw new InvalidTimeSpanException();
         this.startingTime = startingTime;
         this.endingTime = endingTime;
@@ -20,7 +18,7 @@ public class TimeSpan implements Comparable {
     }
 
     public int getDay() {
-        return (day.ordinal()+1)%7;
+        return day;
     }
 
     public float getStartingTime() {
@@ -53,7 +51,7 @@ public class TimeSpan implements Comparable {
     }
 
     public boolean Coincides(TimeSpan timeSpan) {
-        if (this.getDay() == timeSpan.getDay() &&((startingTime <= timeSpan.startingTime && timeSpan.startingTime <= endingTime) || (timeSpan.startingTime <= startingTime && startingTime <= timeSpan.endingTime)))
+        if (this.getDay() == timeSpan.getDay() && ((startingTime <= timeSpan.startingTime && timeSpan.startingTime <= endingTime) || (timeSpan.startingTime <= startingTime && startingTime <= timeSpan.endingTime)))
             return true;
         else
             return false;
@@ -64,4 +62,7 @@ public class TimeSpan implements Comparable {
             super("Invalid TimeSpan Exception");
         }
     }
+
+    //☺
+
 }

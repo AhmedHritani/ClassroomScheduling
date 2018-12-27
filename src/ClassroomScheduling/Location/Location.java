@@ -2,12 +2,19 @@ package ClassroomScheduling.Location;
 
 abstract public class Location {
 
-    private final int id;
+    protected final int id;
     protected String name;
+    protected int capacity;
 
-    public Location(int id, String name) {
+    public Location(int id, int capacity, String name) {
         this.id = id;
+        this.capacity = capacity;
         this.name = name;
+    }
+
+
+    public int getCapacity() {
+        return capacity;
     }
 
     @Override

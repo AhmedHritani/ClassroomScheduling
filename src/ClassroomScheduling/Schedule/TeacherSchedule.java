@@ -8,6 +8,9 @@ import ClassroomScheduling.TimeSpan.TimeSpan;
 import java.util.ArrayList;
 
 public class TeacherSchedule extends Schedule {
+    public TeacherSchedule() {
+        super();
+    }
 
     public TeacherSchedule(TeacherSchedule teacherSchedule) {
         super(teacherSchedule);

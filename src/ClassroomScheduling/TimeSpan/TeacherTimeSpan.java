@@ -4,11 +4,11 @@ import java.time.DayOfWeek;
 
 public class TeacherTimeSpan extends TimeSpan {
 
-    enum Status{COMFORTABLE,UNCOMFORTABLE,UNAVAILABLE}
+    public enum Status{COMFORTABLE,UNCOMFORTABLE,UNAVAILABLE}
 
     private boolean available, comfortable;
 
-    public TeacherTimeSpan(float startingTime, float endingTime, DayOfWeek day, Status status) throws InvalidTimeSpanException {
+    public TeacherTimeSpan(float startingTime, float endingTime, int day, Status status) throws InvalidTimeSpanException {
         super(startingTime, endingTime,day);
         switch (status){
             case UNAVAILABLE:  { available=false; comfortable=false; break; }

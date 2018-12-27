@@ -1,7 +1,7 @@
 package ClassroomScheduling.Location;
 
 public class Auditorium extends Location {
-    public Auditorium(int id, String name) {
-        super(id,name);
+    public Auditorium(int id, int capacity, String name) {
+        super(id, capacity, name);
     }
 }
