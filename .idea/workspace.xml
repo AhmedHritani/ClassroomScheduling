@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="071bf8c7-c8bf-4488-8471-6683c78d9f87" name="Default Changelist" comment="Default Changelist">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/WeakConstraint.java" afterPath="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/WeakConstraint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ClassroomScheduling/Teacher.java" afterPath="$PROJECT_DIR$/src/ClassroomScheduling/Teacher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java" afterPath="$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Teacher.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Teacher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Teacher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="744">
-              <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
               <folding>
                 <element signature="e#825#826#0" expanded="true" />
                 <element signature="e#877#878#0" expanded="true" />
@@ -97,6 +97,16 @@
                 <element signature="e#1257#1258#0" expanded="true" />
                 <element signature="e#1282#1283#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,15 +169,15 @@
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/StudentsGroup/StudentsGroup.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/StrongConstraints/TeacherIsAvaliableConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Schedule/StudentSchedule.java" />
-        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/WeakConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/SpacesBetweenLeacturesConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/TeacherIsComfortableConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/SpacesBetweenLeacturesForStudentsConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/SpacesBetweenLeacturesForTeachersConstraint.java" />
-        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Teacher.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/TeachersMaximumNumberOfLecturesInDayConstraint.java" />
         <option value="$PROJECT_DIR$/src/ClassroomScheduling/Constraints/WeakConstraints/TeachersMaximumNumberOfLecturesInWeekConstraint.java" />
+        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java" />
       </list>
     </option>
   </component>
@@ -177,7 +187,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1050" />
@@ -237,6 +247,13 @@
               <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
               <item name="Constraints" type="462c0819:PsiDirectoryNode" />
               <item name="WeakConstraints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassroomScheduling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassroomScheduling" type="462c0819:PsiDirectoryNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,7 +337,7 @@
     <option name="totallyTimeSpent" value="28835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1050" extended-state="0" />
+    <frame x="952" y="0" width="976" height="1050" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -616,14 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Schedule/StudentSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
@@ -647,7 +656,7 @@
         <state relative-caret-position="288">
           <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -657,7 +666,7 @@
         <state relative-caret-position="288">
           <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -719,7 +728,7 @@
     <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
-          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
             <element signature="e#825#826#0" expanded="true" />
             <element signature="e#877#878#0" expanded="true" />
@@ -728,6 +737,14 @@
             <element signature="e#1257#1258#0" expanded="true" />
             <element signature="e#1282#1283#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassroomScheduling/Sandbox/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
